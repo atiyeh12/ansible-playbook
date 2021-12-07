@@ -1,0 +1,7 @@
+- hosts: nginxservers
+  become: true
+  tasks:
+  - name: ansible create directory example
+    file:
+      path: /home/ubuntu/atiyeh
+      state: directory
