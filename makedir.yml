@@ -5,3 +5,16 @@
     file:
       path: /home/ubuntu/atiyeh
       state: directory
+ 
+  - name: Creating a file with content
+    copy:
+      dest: "/home/ubuntu/atiyeh/word.txt"
+      content:
+        hahaha
+
+        hehe
+
+        helo
+
+        helo
+
